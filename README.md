@@ -1,2 +1,4 @@
-# calculadora-js
-Projeto de uma calculado do desafio 7DaysOfCode da Alura
+# Calculadora em JavaScript
+
+Projeto de uma calculado do desafio 7DaysOfCode JavaScript da Alura
+
