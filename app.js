@@ -12,7 +12,7 @@ const button = document.querySelector('.button');
 
 // Entrada das opções da calculadora
 function inputOption() {
-    const optionClient = prompt('<somar> <subtrair> <multiplicar> <dividir> <sair>\n Digite uma das opções: ');
+    const optionClient = (prompt('<somar> <subtrair> <multiplicar> <dividir> <sair>\n Digite uma das opções: ')).toLowerCase;
     
     if (optionClient === 'sair') {
         alert('Até a proxima...');
