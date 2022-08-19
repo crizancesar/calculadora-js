@@ -23,7 +23,7 @@ function inputOption() {
 
 // Valida a opção escolhida pelo usuário
 function valideOption(option) {
-    if (option) {
+    if (operations[(option)]) {
         inputNumbers(option);
     } else {
         alert('Digite uma opção válida!');
